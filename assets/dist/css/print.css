@@ -1,0 +1,28 @@
+#SOKDetail{
+	font-size: 0.7em;
+	font-family: arial;
+}
+.sokinitialdetail td{ padding: 8px 5px; }
+thead td{padding: 7px 5px;}
+td{ padding: 3px 5px; }
+.tableborder{
+	border:1px solid #dedede;
+	border-collapse: collapse;
+}
+.tbllabel{ font-weight: bold; }
+.trborder td,.trborder th{ border-bottom:1px solid #dedede;border-right:1px solid #dedede;border-collapse: collapse;  }
+
+.trborder td:last-child,.trborder th:last-child{ border-right:none; }
+.tblnoborder { border:none; }
+.tblnoborder td{ border:none; }
+.tblvalue{ text-align: right!important; }
+.trborderspacer td,.trborderitemspacer td{ border-bottom: none!important; }
+.trborderspacerlast{border-bottom:1px solid #dedede;}
+#sokname{
+	display: block;
+	width:150px!important; 
+	font-size: 32px!important;
+	text-align: center!important; 
+	background: #000000!important;
+	color: #ffffff!important;
+}
